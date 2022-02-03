@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 100%;
+  margin-top: 60px;
+}
+
+.input-box {
+  height: 22px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: solid 2px #000;
+  border-radius: 4px;
+}
+
+.search-button {
+  width: 80px;
+  background: #4ac2ee;
+  border: unset;
+  border-radius: 4px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.input-grp {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.city-name {
+  margin: 16px;
+  font-size: 22px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.weather {
+  margin: 22px;
+  font-size: 18px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
